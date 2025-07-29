@@ -11,9 +11,6 @@ HandMath is an intelligent web-based calculator that recognizes handwritten math
 - **Instant Calculation:** Automatically solves the recognized operation.
 - **Modern UI:** Responsive, beautiful interface with a custom background.
 
-## Demo
-
-![UI Screenshot](static/Background.jpeg)
 
 ## Requirements
 
@@ -95,20 +92,6 @@ HandMath/
 - The CNN model is defined in `cnn.py` and loaded from `model/model.json` and `model/model_weights.h5`.
 - Supports digits (0-9) and operators (+, -, x).
 - You can retrain or update the model using your own dataset (see `cnn.py` for details).
-
-## Customization
-
-- **Background:** The UI uses `static/Background.jpeg` as the background. Replace this file to use your own image.
-- **UI:** The interface is styled with Bootstrap and custom CSS in `templates/index.html`.
-
-## Troubleshooting
-
-- **TensorFlow not found:**  
-  Run `pip install tensorflow`
-- **Model files missing:**  
-  Ensure `model/model.json` and `model/model_weights.h5` are present in the `model/` directory.
-- **Background not visible:**  
-  Make sure `Background.jpeg` is in the `static/` folder and the path in `index.html` is `/static/Background.jpeg`.
 
 ## License
 
