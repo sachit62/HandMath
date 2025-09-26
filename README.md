@@ -72,6 +72,7 @@ HandMath/
 
 4. **Run the application:**
    ```bash
+   venv\Scripts\activate
    python app.py
    ```
 
